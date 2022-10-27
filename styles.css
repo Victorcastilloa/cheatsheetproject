@@ -148,7 +148,7 @@ th {
         width: 500px;
         height: 250px;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
         #formsimg {
@@ -156,7 +156,7 @@ th {
             height: 250px;
             margin-top: 50px;
             position: relative;
-                left: 900px;
+                left: 750px;
                 bottom: 400px
         }
     p em {
@@ -164,20 +164,21 @@ th {
         
         
     }
- #formsimgt
+ #formsimgtext
     {
         position: relative;
         margin-top: 20px;
-        left: 900px;
+        left: 750px;
         bottom: 400px;
+        width: fit-content;
     }
 
     #media {
-   
-        overflow: scroll;
+        position: relative;
+        display: block;
         height: fit-content;
         width: auto;
-        position: relative;
+        
     }
 
     footer {
@@ -189,3 +190,5 @@ th {
         margin-left: 10px;  
         text-align: center
     }
+
+    
